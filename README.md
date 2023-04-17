@@ -1,11 +1,32 @@
-# Sample Snack app
+# Redux Saga Example
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Contoh sederhana yang menerapkan managemen data dengan menggunakan Redux Saga didalam contoh aplikasi [Tugas 3](https://github.com/RozKoy/Mobile-App)
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+## Batasan Pengembangan
+- Data yang diambil berupa data acak tanpa API. *Note : Simulasi seperti penggunaan API*
+- Desain dibuat sesederhana mungkin
+- Terdapat perintah Create, Read, Update dan Delete Data Acak
+- Terdapat pengujian kode Asynchhronous
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## Cara Menjalankan
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
+> **Lokal**
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+**Dependensi Utama** : `Node.js`, `React-Native`, `Expo-CLI`, `Redux`, `Redux-Saga`, `Redux-logger`
+
+**Langkah - langkah** :
+- Langkah pertama dalam menjalankan aplikasi ini adalah melakukan instalasi seluruh dependensi yang dibutuhkan
+- Selanjutnya, Unduh *repository* ini dengan menekan tombol `Code` berwarna Hijau diatas atau tekan [Unduh](https://github.com/RozKoy/Tugas4-Redux-Saga/archive/refs/heads/main.zip)
+- Setelah itu, mengekstrak file hasil download repository ini didalam folder lokal yang diinginkan
+- Jika Proses Ekstraksi telah selesai, maka buka Terminal / CMD perangkat PC kalian lalu mengarahkan *Current Directory* ke folder hasil ekstraski tersebut
+- Kemudian ikut beberapa perintah berikut secara berurutan, `npx install` dan `npx expo start`. *Note : Dibutuhkan Koneksi Internet*
+- Selesai, silahkan memilih cara menjalankan aplikasi ini dengan yang diinginkan (WEB / Mobile Scan / any else)
+
+> **Snack - EXPO GO**
+
+**Langkah - langkah** :
+- Langkah pertama yang harus kalian lakukan adalah menyambungkan perangkat dengan koneksi Internet
+- Kemudian akses link berikut : [LINK](https://snack.expo.dev/@rozkoy/tugas4saga)
+
+> **Kontak Saya** :
+[Rozin](https://www.instagram.com/rozinnnnn_/)
